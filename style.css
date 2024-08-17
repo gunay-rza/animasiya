@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./240_F_448006338_Z056GXWSHSZFPMbHzENhMF7nvwgAzkk5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div :nth-child(1) {
+    position: absolute;
+    right: 40px;
+    top: 550px;
+    animation: get 14s infinite;
+}
+
+@keyframes get {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 570px;
+    }
+}
+
+.div :nth-child(4) {
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+}
+
+.div :nth-child(10) {
+    height: 60px;
+    position: absolute;
+    right: 400px;
+    top: 480px;
+    animation: qatar 15s infinite;
+}
+
+@keyframes qatar {
+    from {
+        right: 480px;
+    }
+
+    to {
+        right: 750px;
+    }
+}
+
+.div :nth-child(5) {
+    position: absolute;
+    left: 480px;
+    top: 580px;
+    animation: leylek 14s infinite;
+}
+
+@keyframes leylek {
+    from {
+        left: 480px;
+    }
+
+    to {
+        left: 900px;
+    }
+}
+
+.div :nth-child(6) {
+    position: absolute;
+    left: 480px;
+    bottom: 60px;
+    animation: kisi 5s infinite;
+}
+
+@keyframes kisi {
+    from {
+        left: 280px;
+    }
+
+    to {
+        left: 160px;
+    }
+}
+
+.div :nth-child(3) {
+    height: 150px;
+    position: absolute;
+    right: 700px;
+    top: 60px;
+}
+
+.div :nth-child(9) {
+    position: absolute;
+    right: 280px;
+    bottom: 140px;
+    width: 390px;
+    height: 70px;
+}
+
+.div :nth-child(8) {
+    position: absolute;
+    left: 380px;
+    bottom: 270px;
+    animation: oqlan 14s infinite;
+}
+
+@keyframes oqlan {
+    from {
+        left: 380px;
+    }
+
+    to {
+        left: 730px;
+    }
+}
+
+.div :nth-child(7) {
+    position: absolute;
+    left: 700px;
+    top: 270px;
+    animation: qus 12s infinite;
+}
+
+@keyframes qus {
+    from {
+        top: 270px;
+        transform: rotate(-10deg);
+    }
+
+    to {
+        top: 70px;
+        left: 1250px;
+    }
+}
+
+.div :nth-child(11) {
+    position: absolute;
+    right: 180px;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.div :nth-child(2) {
+    position: absolute;
+    right: 780px;
+    bottom: 40px;
+    animation: masin 13s infinite;
+    width: 200px;
+}
+
+@keyframes masin {
+    from {
+        right: 780px;
+        transform: rotate(35deg);
+    }
+
+    to {
+        right: 1400px;
+        bottom: 250px;
+    }
+}
+
+.div :nth-child(12) {
+    position: absolute;
+    right: 180px;
+    bottom: 80px;
+    animation: kepenek 13s infinite;
+    width: 300px;
+}
+
+@keyframes kepenek {
+    from {
+        right: 180px;
+
+    }
+
+    to {
+        right: 400px;
+
+    }
+}
